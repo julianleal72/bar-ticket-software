@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: bar_ticket_software_production
-  username: bar_ticket_software
   password: <%= ENV["BAR_TICKET_SOFTWARE_DATABASE_PASSWORD"] %>
