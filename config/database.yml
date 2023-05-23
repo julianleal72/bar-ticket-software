@@ -81,4 +81,4 @@ test:
 #
 production:
   <<: *default
-  password: <%= ENV["BAR_TICKET_SOFTWARE_DATABASE_PASSWORD"] %>
+  url: <%= ENV["BAR_TICKET_SOFTWARE_DATABASE_PASSWORD"] %>
